@@ -1,0 +1,65 @@
+
+.nav-item:hover {
+  border-bottom: 3px solid rgb(0, 64, 255);
+}
+.body1 {
+  background: #0a0a0a;
+}
+/*-----------------------------
+-------------------------------
+ PORTFOLIO
+ ------------------------------
+ ----------------------------*/
+ #carousel {
+     position: relative;
+     background-image: url("/img/Earth-Moon.jpg");
+     background-size: cover;
+     height: 500px;
+ }
+ .arrow {
+     position: absolute;
+     bottom: 40px;
+     left: 50%;
+     color: green;
+ }
+ .floating {
+     animation-name: floating;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+ }
+
+ @keyframes floating {
+     from { transform: translate(0,  0px); }
+     65%  { transform: translate(0, 15px); }
+     to   { transform: translate(0, 0px); }
+ }
+ .portfolio-text {
+     color: black;
+     margin-top: 40px;
+ }
+ .mockup > img {
+
+ }
+
+/*-----------------------------
+-------------------------------
+ PROFILE
+ ------------------------------
+ ----------------------------*/
+.job {
+  color: grey;
+  font-size: 15px;
+}
+.first, .two, .three {
+    color: white;
+}
+.bio, span {
+    color: grey;
+    font-size: 15px;
+}
+/*-----------------------------
+-------------------------------
+ PROFILE
+ ------------------------------
+ ----------------------------*/
