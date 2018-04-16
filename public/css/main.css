@@ -96,14 +96,21 @@
   HOME
   ------------------------------
   ----------------------------*/
-.show {
+
+.homePic {
+    height: 100vh;
     position: absolute;
-    /* left: 45%; */
-    top: 0;
-    margin-top: 393px;
-    color: white;
 }
-.home-text {
-    margin-left: 387px;
-    margin-top: 100px;
+#typeTry1 {
+    padding-top: 90px;
+}
+#type1 {
+    color: #855a1f;
+    margin-left: 215px;
+    font-weight: 600;
+    margin-top: 300px;
+    font-size: 40px;
+    position: relative;
+    width: 400px;
+    padding: 40px;
 }

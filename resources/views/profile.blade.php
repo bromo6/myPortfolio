@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="row">
-  <div class="col-4 mb-3">
+  <div class="col-lg-4 col-md-8 col-sm-12 mb-3">
     <img src="https://pbs.twimg.com/profile_images/881708708832710656/O3zln7hw.jpg" width="200" class="rounded-circle mt-5" />
     <h3>Brandon Romo</h3>
     <p class="bio">
@@ -30,33 +30,10 @@
     <span>PO Box 78577- TX, USA</span>
 
   </div>
-  <div class="col-8">
+  <div class="col-lg-8 col-md-12">
     <h1>About Me</h1>
     <p class="first mb-5">
       I am 18 years old, and I love to play baseball. I love to build things/woodworking I want to be able to build my own shed. I am currently attending Valley Technical Academy. Where I am learning to code and some day be able to create my own website.
-    </p>
-    <h3>Work Experiences</h3>
-    <ul>
-      <li>
-        <h5>Volunteer</h5>
-      </li>
-    </ul>
-    <p class="job">
-
-    </p>
-    <p class="two">
-
-    </p>
-    <ul>
-      <li>
-        <h5>Lifeguard</h5>
-      </li>
-    </ul>
-    <p class="job">
-      May 2017 - July 2017
-    </p>
-    <p class="three">
-      I worked at Pharr Aquatic Center for three months. We always had to work together as a team doing "practice saves". Our teamworking skills were tested every week were we had to jump in the water and "save" a test dummy.
     </p>
   </div>
 </div>
