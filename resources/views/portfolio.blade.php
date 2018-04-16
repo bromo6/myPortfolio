@@ -3,30 +3,81 @@
 @section('title', 'Brandon Romo')
 
 @section('content')
-<div id="carousel" class="carousel slide" data-ride="carousel">
-    <i class="fa fa-chevron-down fa-4x arrow floating"></i>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
+<div  class="row">
+    <div id="parallax1" class="col px-0">
+        <div class="parallax">
+            <i class="fa fa-chevron-down fa-3x arrow floating"></i>
+        </div>
     </div>
-  </div>
 </div>
-
-  <div class="row">
-      <div class="col-4 ml-5 mt-5">
-          <img src="img/Mockup-group.png" id="mockup" width="350" height="320"/>
+    <p class="textOut">Previous Work</p>
+  <div class="row row123">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/Mockup-group.png" id="mockup" width="500" height="450"/>
       </div>
-      <div class="col mt-5">
+      <div class="col-5 mt-5">
           <p class="portfolio-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
           </p>
       </div>
   </div>
-  <div class="row">
-      <div class="col-4 ml-5 mt-5">
-          <img src="img/fortnite.png" id="fortnite" width="350" height="320"/>
+  <div class="row row345">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/fortnite1.png" id="fortnite" width="500" height="475"/>
       </div>
-      <div class="col mt-5">
-          <p class="portfolio-text">
+      <div class="col-5 mt-5">
+          <p class="portfolio-text2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
+          </p>
+      </div>
+  </div>
+  <div class="row row123">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/fortnite1.png" id="fortnite" width="500" height="475"/>
+      </div>
+      <div class="col-5 mt-5">
+          <p class="portfolio-text2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
+          </p>
+      </div>
+  </div>
+  <div class="row row345">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/fortnite1.png" id="fortnite" width="500" height="475"/>
+      </div>
+      <div class="col-5 mt-5">
+          <p class="portfolio-text2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
+          </p>
+      </div>
+  </div>
+
+  <div class="row row123">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/fortnite1.png" id="fortnite" width="500" height="475"/>
+      </div>
+      <div class="col-5 mt-5">
+          <p class="portfolio-text2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
+          </p>
+      </div>
+  </div>
+  <div class="row row345">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/fortnite1.png" id="fortnite" width="500" height="475"/>
+      </div>
+      <div class="col-5 mt-5">
+          <p class="portfolio-text2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
+          </p>
+      </div>
+  </div>
+  <div class="row row123">
+      <div class="col-6 ml-5 mt-5">
+          <img src="img/fortnite1.png" id="fortnite" width="500" height="475"/>
+      </div>
+      <div class="col-5 mt-5">
+          <p class="portfolio-text2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda omnis earum quos, commodi laudantium! Dolor veritatis error placeat quasi, debitis asperiores, possimus esse dolores quidem quae autem. Quae, similique!
           </p>
       </div>

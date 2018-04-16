@@ -1,6 +1,6 @@
 
 .nav-item:hover {
-  border-bottom: 3px solid rgb(0, 64, 255);
+  border-bottom: 3px solid #e0dcdc;
 }
 .body1 {
   background: #0a0a0a;
@@ -10,17 +10,22 @@
  PORTFOLIO
  ------------------------------
  ----------------------------*/
- #carousel {
-     position: relative;
-     background-image: url("/img/Earth-Moon.jpg");
-     background-size: cover;
-     height: 500px;
+ #parallax1 {
+     width: 100%;
+ }
+ .parallax {
+    background-image: url("https://images.unsplash.com/photo-1459716854666-062eac2da3bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=155f4a921c9693a713ea23c6e6619240&auto=format&fit=crop&w=1489&q=80https://images.unsplash.com/photo-1459716854666-062eac2da3bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=155f4a921c9693a713ea23c6e6619240&auto=format&fit=crop&w=1489&q=80");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
  }
  .arrow {
      position: absolute;
      bottom: 40px;
      left: 50%;
-     color: green;
+     color: white;
  }
  .floating {
      animation-name: floating;
@@ -34,9 +39,23 @@
      65%  { transform: translate(0, 15px); }
      to   { transform: translate(0, 0px); }
  }
+ .textOut{
+     font-size: 50px;
+     margin: 70px;
+     border-bottom: 1px solid #e0dcdc;
+ }
+ .row123 {
+    /* margin-top: 20px; */
+ }
+ .row345 {
+     /* margin-top: 70px; */
+     background: #f3f3f3;
+ }
  .portfolio-text {
-     color: black;
-     margin-top: 40px;
+     margin-top: 60px;
+ }
+ .portfolio-text2 {
+    margin-top: 100px;
  }
  .mockup > img {
 
@@ -47,12 +66,20 @@
  PROFILE
  ------------------------------
  ----------------------------*/
+ #parallax2 {
+     width: 100%;
+ }
+ .parallaxB {
+     background-image: url("https://images.unsplash.com/photo-1449451982627-40025c095b91?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05e3bb92eb6659da2b447a97306e88b&auto=format&fit=crop&w=1050&q=80");
+     min-height: 500px;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
 .job {
   color: grey;
   font-size: 15px;
-}
-.first, .two, .three {
-    color: white;
 }
 .bio, span {
     color: grey;
@@ -63,3 +90,20 @@
  PROFILE
  ------------------------------
  ----------------------------*/
+
+ /*-----------------------------
+ -------------------------------
+  HOME
+  ------------------------------
+  ----------------------------*/
+.show {
+    position: absolute;
+    /* left: 45%; */
+    top: 0;
+    margin-top: 393px;
+    color: white;
+}
+.home-text {
+    margin-left: 387px;
+    margin-top: 100px;
+}

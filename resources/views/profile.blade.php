@@ -59,4 +59,40 @@
       I worked at Pharr Aquatic Center for three months. We always had to work together as a team doing "practice saves". Our teamworking skills were tested every week were we had to jump in the water and "save" a test dummy.
     </p>
   </div>
+</div>
+  <div class="row">
+      <div id="parallax2" class="col px-0">
+          <div class="parallax parallaxB">
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 @endsection
