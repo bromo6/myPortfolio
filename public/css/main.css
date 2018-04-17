@@ -85,9 +85,12 @@
     color: grey;
     font-size: 15px;
 }
+.green {
+    font-size: 30px !important;
+}
 /*-----------------------------
 -------------------------------
- PROFILE
+ PORTFOLIO
  ------------------------------
  ----------------------------*/
 
@@ -96,21 +99,26 @@
   HOME
   ------------------------------
   ----------------------------*/
-
-.homePic {
-    height: 100vh;
-    position: absolute;
+.homeRow {
+    position: relative;
 }
-#typeTry1 {
-    padding-top: 90px;
+.homePic {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    background-image: url('https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=540f14856de81b9306b3bfc870827fe7&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: center 0;
+}
+#mainText {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 160px;
 }
 #type1 {
-    color: #855a1f;
-    margin-left: 215px;
-    font-weight: 600;
-    margin-top: 300px;
-    font-size: 40px;
-    position: relative;
-    width: 400px;
-    padding: 40px;
+    color: white;
+    font-size: 30px;
+    padding-left: 60px;
 }

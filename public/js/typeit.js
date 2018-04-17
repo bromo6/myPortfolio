@@ -1,7 +1,9 @@
 $(document).ready(function(){
     new TypeIt('#type1', {
-        strings: ['Hello I am here.', 'What is your name?'],
+        strings: ['My name is Brandon.', 'I am 18.'],
         speed: 50,
         autoStart: false
     });
+
+
 })
