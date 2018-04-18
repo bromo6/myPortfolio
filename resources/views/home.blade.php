@@ -17,12 +17,23 @@
         </ul>
     </div>
 </nav>
+<div class="sidenav">
+  <a href="https://twitter.com/?logged_out=1&lang=en">
+      <i class="fab fa-twitter sideIcon"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/brandon-romo-01777615b/">
+      <i class="fab fa-linkedin-in sideIcon"></i>
+  </a>
+  <a href="https://github.com/bromo6">
+      <i class="fab fa-github sideIcon"></i>
+  </a>
+</div>
 <div class="row homeRow">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="homePic"></div>
         <div class="row">
             <div class="col">
-                <p id="mainText">Hello, What is your name?</p>
+                <p id="mainText">Hello, my name is Brandon.</p>
                 <div id="type1"></div>
             </div>
         </div>
@@ -31,17 +42,6 @@
 <div class="row pt-5 mx-5">
     <div class="col-lg-4 col-md-8 mb-3">
         <img src="https://pbs.twimg.com/profile_images/881708708832710656/O3zln7hw.jpg" width="200" class="rounded-circle mt-5" />
-        <h3>Brandon Romo</h3>
-
-        <i class="fab fa-facebook-f blue"></i>
-
-        <i class="fab fa-twitter blue"></i>
-
-        <i class="fab fa-google-plus-g blue"></i>
-
-        <i class="fab fa-linkedin-in blue"></i>
-
-        <i class="fab fa-snapchat-square blue"></i>
     </div>
     <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 pt-5">
         <h1>About Me</h1>
@@ -150,12 +150,13 @@
 <div class="row mx-5">
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h1>Education</h1>
+
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <h1>Testimonials</h1>
     </div>
 </div>
-<div class="container">
+<div class="container" id="experience">
     <div class="row">
         <div class="col">
             <h1 class="my-4 text-center text-lg-left">Past Work</h1>
@@ -196,10 +197,11 @@
         </div>
     </div>
 </div>
-<div class="container inTouch">
-    <div class="row mx-5">
+<div class="backImg">
+    <div class="container inTouch" style="margin-right: 0px; color: white;">
+    <div class="row">
         <div id="context" class="col">
-            <h2 class="mx-0">Get In Touch</h2>
+            <h2 class="comTitle pt-4">Get In Touch</h2>
         </div>
     </div>
     <div class="row">
@@ -256,6 +258,7 @@
 
         </div>
     </div>
+</div>
 </div>
 @endsection
 @section('bottomjs')

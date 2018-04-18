@@ -83,3 +83,50 @@ input::-webkit-inner-spin-button {
 .learned {
     font-size: 20px;
 }
+.backImg {
+    background-color: #060629e6;
+}
+#experience {
+    position: relative;
+}
+#experience:after {
+    content: "";
+    background: url('/img/shape.png') scroll bottom left repeat-x;
+    position: absolute;
+    width: 100%;
+    height: 182px;
+    float: left;
+    left: 0;
+    bottom: 0;
+}
+.comTitle {
+    padding-left: 295px;
+}
+.sideIcon {
+	background: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 30px;
+}
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 10px;
+    overflow-x: hidden;
+    display: table;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: table-cell;
+
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
