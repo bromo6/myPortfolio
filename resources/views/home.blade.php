@@ -32,10 +32,7 @@
     <div class="col-lg-4 col-md-8 mb-3">
         <img src="https://pbs.twimg.com/profile_images/881708708832710656/O3zln7hw.jpg" width="200" class="rounded-circle mt-5" />
         <h3>Brandon Romo</h3>
-        <p class="bio">
-            Born on 05/08/1999</br>
-            Traveler & Student
-        </p>
+
         <i class="fab fa-facebook-f blue"></i>
 
         <i class="fab fa-twitter blue"></i>
@@ -58,75 +55,67 @@
         <h1>Languages</h1>
         <div class="row">
             <div class="col">
-                <p>JavaScript</p>
+                <p class="learned slideText">JavaScript</p>
             </div>
             <div class="col">
-                <i class="devicon-javascript-plain"></i>
+                <i class="diby1 slideText devicon-javascript-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>jQuery</p>
+                <p class="learned slideText">jQuery</p>
             </div>
             <div class="col">
-                <i class="devicon-jquery-plain"></i>
+                <i class="diby1 slideText devicon-jquery-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>PHP</p>
+                <p class="learned slideText">PHP</p>
             </div>
             <div class="col">
-                <i class="devicon-php-plain"></i>
+                <i class="diby1 slideText devicon-php-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>HTML</p>
+                <p class="learned slideText">HTML</p>
             </div>
             <div class="col">
-                <i class="devicon-html5-plain"></i>
+                <i class="diby1 slideText devicon-html5-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>CSS</p>
+                <p class="learned slideText">CSS</p>
             </div>
             <div class="col">
-                <i class="devicon-css3-plain-wordmark"></i>
+                <i class="diby1 slideText devicon-css3-plain-wordmark"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>MySQL</p>
+                <p class="learned slideText">MySQL</p>
             </div>
             <div class="col">
-                <i class="devicon-mysql-plain"></i>
+                <i class="diby1 slideText devicon-mysql-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Git</p>
+                <p class="learned slideText">Git</p>
             </div>
             <div class="col">
-                <i class="devicon-git-plain"></i>
+                <i class="diby1 slideText devicon-git-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Apache</p>
+                <p class="learned slideText">Apache</p>
             </div>
             <div class="col">
-                <i class="devicon-apache-plain"></i>
+                <i class="diby1 slideText devicon-apache-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
 
     </div>
@@ -134,30 +123,27 @@
         <h1>Technologies</h1>
         <div class="row">
             <div class="col">
-                <p>Linux</p>
+                <p class="learned textSlide">Linux</p>
             </div>
             <div class="col">
-                <i class="devicon-linux-plain"></i>
+                <i class="diby1 textSlide devicon-linux-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Laravel</p>
+                <p class="learned textSlide">Laravel</p>
             </div>
             <div class="col">
-                <i class="devicon-laravel-plain"></i>
+                <i class="diby1 textSlide devicon-laravel-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Photoshop</p>
+                <p class="learned textSlide">Photoshop</p>
             </div>
             <div class="col">
-                <i class="devicon-photoshop-plain"></i>
+                <i class="diby1 textSlide devicon-photoshop-plain"></i>
             </div>
-            <div class="col"></div>
         </div>
     </div>
 </div>
@@ -210,19 +196,112 @@
         </div>
     </div>
 </div>
-<div class="row mx-5">
-    <div class="col">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+<div class="container inTouch">
+    <div class="row mx-5">
+        <div id="context" class="col">
+            <h2 class="mx-0">Get In Touch</h2>
         </div>
-        <div class="row">
-            <div class="col"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="form-area">
+                <form id="text" role="form" action="sendEmail" method="POST">
+                    <br style="clear:both">
+                    <div class="row">
+
+                        <!--NAME  ------------------------------------------------------------->
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                            </div>
+                        </div>
+
+                        <!--NUMBER  ------------------------------------------------------------>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!--EMAIL  ------------------------------------------------------------->
+
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!--COMMENT  ----------------------------------------------------------->
+
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+
+                            <div class="form-group">
+                                <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Comment" maxlength="140" rows="7"></textarea>
+                            </div>
+                            <button type="button" id="submit" name="submit" class="btn btn-outline-dark pull-right">Submit</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="text-primary email-msg"></p>
+
+            </div>
         </div>
-        <div class="row">
-            <div class="col"></div>
+        <div id="detailsbg" class="col-md-4">
+
         </div>
     </div>
 </div>
+@endsection
+@section('bottomjs')
+<script>
+$(document).ready(function (){
+    $('.slideText').show("slide", {
+        direction: "left"
+    }, 5000);
+    $('.textSlide').show("slide", {
+        direction: "left"
+    }, 5000);
+});
 
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
+
+$("#submit").on("click", function(response) {
+
+var formName = $("#name").val();
+var formComment = $("#message").val();
+var formEmail = $("#email").val();
+var formPhone = $("#phone").val();
+
+var data = {
+    name: formName,
+    phone: formPhone,
+    comment: formComment,
+    email: formEmail
+};
+
+$.ajax({
+    method: 'POST',
+    url: 'sendEmail',
+    data: data
+}).done(function(response) {
+    $(".email-msg").html(response);
+    $("#name").val("");
+    $("#phone").val("");
+    $("#email").val("");
+    $("#message").val("");
+});
+
+});
+</script>
 @endsection

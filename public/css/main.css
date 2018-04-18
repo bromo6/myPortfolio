@@ -2,25 +2,11 @@
 .nav-item:hover {
   border-bottom: 3px solid #e0dcdc;
 }
-.body1 {
-  background: #0a0a0a;
-}
 /*-----------------------------
 -------------------------------
  PORTFOLIO
  ------------------------------
  ----------------------------*/
- #parallax1 {
-     width: 100%;
- }
- .parallax {
-    background-image: url("https://images.unsplash.com/photo-1459716854666-062eac2da3bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=155f4a921c9693a713ea23c6e6619240&auto=format&fit=crop&w=1489&q=80https://images.unsplash.com/photo-1459716854666-062eac2da3bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=155f4a921c9693a713ea23c6e6619240&auto=format&fit=crop&w=1489&q=80");
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
  .arrow {
      position: absolute;
      bottom: 40px;
@@ -60,45 +46,6 @@
  .mockup > img {
 
  }
-
-/*-----------------------------
--------------------------------
- PROFILE
- ------------------------------
- ----------------------------*/
- #parallax2 {
-     width: 100%;
- }
- .parallaxB {
-     background-image: url("https://images.unsplash.com/photo-1449451982627-40025c095b91?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05e3bb92eb6659da2b447a97306e88b&auto=format&fit=crop&w=1050&q=80");
-     min-height: 500px;
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
- }
-.job {
-  color: grey;
-  font-size: 15px;
-}
-.bio, span {
-    color: grey;
-    font-size: 15px;
-}
-.green {
-    font-size: 30px !important;
-}
-/*-----------------------------
--------------------------------
- PORTFOLIO
- ------------------------------
- ----------------------------*/
-
- /*-----------------------------
- -------------------------------
-  HOME
-  ------------------------------
-  ----------------------------*/
 .homeRow {
     position: relative;
 }
@@ -121,4 +68,18 @@
     color: white;
     font-size: 30px;
     padding-left: 60px;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.diby1 {
+    font-size: 40px;
+}
+.learned {
+    font-size: 20px;
 }

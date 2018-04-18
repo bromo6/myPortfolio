@@ -20,3 +20,5 @@ Route::get('/portfolio', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+
+Route::post('/sendEmail', 'HomeController@send_Email');
