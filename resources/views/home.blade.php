@@ -18,15 +18,33 @@
     </div>
 </nav>
 <div class="sidenav">
-  <a href="https://twitter.com/?logged_out=1&lang=en">
-      <i class="fab fa-twitter sideIcon"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/brandon-romo-01777615b/">
-      <i class="fab fa-linkedin-in sideIcon"></i>
-  </a>
-  <a href="https://github.com/bromo6">
-      <i class="fab fa-github sideIcon"></i>
-  </a>
+    <div class="row">
+        <div class="col">
+            <div class="aCircles">
+                <a href="https://twitter.com/?logged_out=1&lang=en">
+                    <i class="fab fa-twitter sideIcon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="aCircles">
+                <a href="https://www.linkedin.com/in/brandon-romo-01777615b/">
+                    <i class="fab fa-linkedin-in sideIcon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="aCircles">
+                <a href="https://github.com/bromo6">
+                    <i class="fab fa-github sideIcon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="row homeRow">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

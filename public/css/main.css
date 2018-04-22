@@ -102,18 +102,23 @@ input::-webkit-inner-spin-button {
 .comTitle {
     padding-left: 295px;
 }
+.socialCircle {
+    height: 40px;
+    width: 40px;
+}
+.sideIcon:hover {
+    color: white;
+}
 .sideIcon {
-	background: black;
-    height: 20px;
-    width: 20px;
-    border-radius: 30px;
+    color: white;
+    font-size: 25px;
 }
 .sidenav {
     width: 130px;
     position: fixed;
     z-index: 1;
     top: 50%;
-    left: 10px;
+    left: 5px;
     overflow-x: hidden;
     display: table;
     padding-left: 20px;
@@ -129,4 +134,10 @@ input::-webkit-inner-spin-button {
 
 .sidenav a:hover {
     color: #064579;
+}
+.aCircles {
+    border-radius: 223px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
 }
