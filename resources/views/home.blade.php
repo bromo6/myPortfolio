@@ -22,7 +22,9 @@
         <div class="col">
             <div class="aCircles">
                 <a href="https://twitter.com/?logged_out=1&lang=en">
-                    <i class="fab fa-twitter sideIcon"></i>
+                    <div class="socialCircle rounded-circle">
+                        <i class="fab fa-twitter sideIcon"></i>
+                    </div>
                 </a>
             </div>
         </div>
@@ -31,7 +33,9 @@
         <div class="col">
             <div class="aCircles">
                 <a href="https://www.linkedin.com/in/brandon-romo-01777615b/">
-                    <i class="fab fa-linkedin-in sideIcon"></i>
+                    <div class="socialCircle rounded-circle">
+                        <i class="fab fa-linkedin-in sideIcon"></i>
+                    </div>
                 </a>
             </div>
         </div>
@@ -40,13 +44,15 @@
         <div class="col">
             <div class="aCircles">
                 <a href="https://github.com/bromo6">
-                    <i class="fab fa-github sideIcon"></i>
+                    <div class="socialCircle rounded-circle">
+                        <i class="fab fa-github sideIcon"></i>
+                    </div>
                 </a>
             </div>
         </div>
     </div>
 </div>
-<div class="row homeRow">
+<div class="row homeRow mb-5">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="homePic"></div>
         <div class="row">
